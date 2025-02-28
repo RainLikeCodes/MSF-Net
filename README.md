@@ -1,4 +1,4 @@
-# a photometric method
+# A photometric stereo method
 
 
 ## Environment
