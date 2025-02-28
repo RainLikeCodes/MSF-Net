@@ -1,8 +1,5 @@
-# ML-Net
+# a photometric method
 
-## A Multi-stage feature extractor Network for Photometric Stereo
-
-Shiyu Qin, Kaixuan Wang, Lin Qi, Junyu DONG(co-corresponding)
 
 ## Environment
 
@@ -32,23 +29,17 @@ DiLiGenT test dataset (759MB), via:
 
 https://drive.google.com/file/d/1LzRMwrxWMdV_ASYzUMm9ZlAmyBs-QJRs/view
 
-Light Stage Data Gallery, via:
 
-https://vgl.ict.usc.edu/Data/LightStage/
-
-Apple&Gourd dataset, via:
-
-http://vision.ucsd.edu/~nalldrin/research/
 
 ## Testing on your device:
 ```shell
-python eval/run_model.py --retrain ./checkpoints/good_4.pth.tar --in_img_num X 
+python eval/run_model.py --retrain xxx.pth.tar --in_img_num X 
 ```
 You can change X to adjust the number of the input image. 
 
 ## Results on the DiLiGenT benchmark dataset:
 
-We have provided the error maps on the DiLiGenT benchmark dataset (under 96 input images), in document ``eval/preds''
+We have provided the error maps on the DiLiGenT benchmark dataset (under 96 input images)
 
 
 
