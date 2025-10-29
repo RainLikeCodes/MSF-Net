@@ -9,7 +9,7 @@ class RunModelOpts(BaseOpts):
         #### Model and Dataset ####
         self.parser.add_argument('--run_model',   default=True, action='store_false')
         self.parser.add_argument('--benchmark',   default='DiLiGenT_main')
-        self.parser.add_argument('--bm_dir',      default='/data/qsy/Datasets/DiLiGenT/pmsData')
+        self.parser.add_argument('--bm_dir',      default='/data/Datasets/DiLiGenT/pmsData')
         self.parser.add_argument('--model',       default='MSF_Net_run')
         self.parser.add_argument('--test_batch',  default=1,    type=int)
 
